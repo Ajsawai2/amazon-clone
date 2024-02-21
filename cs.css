@@ -130,16 +130,19 @@ a {
   grid-auto-flow: column;
   overflow-x: scroll;
   border-radius: 4px;
+  scroll-snap-type: X mandatory;
 }
 
-.product {
-  width: 200px;
+img {
+  width: 400px;
   height: 200px;
   background-color: aliceblue;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 25px;
-}
+  object-fit: cover;
+  scroll-snap-align: start;
+  
 ::-webkit-scrollbar {
   height: 4px;
   width: 4px;

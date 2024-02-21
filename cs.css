@@ -142,7 +142,8 @@ img {
   margin-top: 25px;
   object-fit: cover;
   scroll-snap-align: start;
-  
+  border-radius: 20px;
+}
 ::-webkit-scrollbar {
   height: 4px;
   width: 4px;
